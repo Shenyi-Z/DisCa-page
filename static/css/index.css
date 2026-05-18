@@ -372,10 +372,18 @@ a {
   box-shadow: var(--shadow);
 }
 
-.poster-viewer iframe {
+.poster-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4032 / 2016;
+}
+
+.poster-frame iframe {
+  position: absolute;
+  inset: 0;
   display: block;
   width: 100%;
-  min-height: 720px;
+  height: 100%;
   border: 0;
   background: #fff;
 }
@@ -482,7 +490,4 @@ code {
     font-size: 0.82rem;
   }
 
-  .poster-viewer iframe {
-    min-height: 420px;
-  }
 }
