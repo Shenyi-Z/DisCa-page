@@ -364,39 +364,32 @@ a {
   border-bottom: 1px solid var(--line);
 }
 
-.poster-placeholder {
-  display: grid;
-  min-height: 520px;
-  place-items: center;
-  padding: 2rem;
-  border: 1px dashed rgba(31, 79, 215, 0.34);
+.poster-viewer {
+  overflow: hidden;
+  border: 1px solid var(--line);
   border-radius: var(--radius);
-  background:
-    linear-gradient(135deg, rgba(31, 79, 215, 0.08), rgba(26, 166, 201, 0.12)),
-    #fff;
-  box-shadow: var(--shadow-small);
-  text-align: center;
+  background: #fff;
+  box-shadow: var(--shadow);
 }
 
-.poster-kicker {
-  margin-bottom: 0.8rem;
-  color: var(--blue);
-  font-size: 0.82rem;
-  font-weight: 800;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
+.poster-viewer iframe {
+  display: block;
+  width: 100%;
+  min-height: 720px;
+  border: 0;
+  background: #fff;
 }
 
-.poster-title {
+.poster-download {
   margin: 0;
-  font-size: clamp(3rem, 9vw, 6rem);
-  font-weight: 800;
-  letter-spacing: -0.07em;
+  padding: 0.9rem 1rem;
+  border-top: 1px solid var(--line);
+  text-align: center;
+  background: var(--soft);
 }
 
-.poster-copy {
-  margin: 0.5rem 0 0;
-  color: var(--muted);
+.poster-download a {
+  font-weight: 700;
 }
 
 .bibtex-header {
@@ -489,7 +482,7 @@ code {
     font-size: 0.82rem;
   }
 
-  .poster-placeholder {
-    min-height: 360px;
+  .poster-viewer iframe {
+    min-height: 420px;
   }
 }
