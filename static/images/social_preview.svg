@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">DisCa project page preview</title>
+  <desc id="desc">A clean blue and cyan preview card for the DisCa paper project page.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#eef4ff"/>
+      <stop offset="0.55" stop-color="#fbfcff"/>
+      <stop offset="1" stop-color="#e8fbff"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#1f4fd7"/>
+      <stop offset="1" stop-color="#1aa6c9"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="34" flood-color="#1f4fd7" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1010" cy="120" r="220" fill="#1aa6c9" opacity="0.12"/>
+  <circle cx="130" cy="520" r="240" fill="#1f4fd7" opacity="0.12"/>
+  <rect x="100" y="84" width="1000" height="462" rx="44" fill="#fff" filter="url(#shadow)"/>
+  <rect x="145" y="132" width="150" height="44" rx="22" fill="#eaf1ff"/>
+  <text x="220" y="160" text-anchor="middle" fill="#1f4fd7" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="3">CVPR 2026</text>
+  <text x="145" y="262" fill="#152033" font-family="Inter, Arial, sans-serif" font-size="84" font-weight="800" letter-spacing="-5">DisCa</text>
+  <text x="145" y="332" fill="#152033" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="-1.6">Accelerating Video Diffusion Transformers</text>
+  <text x="145" y="388" fill="#647084" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="600">Distillation-Compatible Learnable Feature Caching</text>
+  <rect x="145" y="444" width="385" height="54" rx="27" fill="url(#accent)"/>
+  <text x="337" y="480" text-anchor="middle" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">HunyuanVideo Examples</text>
+  <g transform="translate(745 154)">
+    <rect width="278" height="188" rx="24" fill="#152033"/>
+    <rect x="28" y="28" width="222" height="132" rx="16" fill="url(#accent)" opacity="0.9"/>
+    <circle cx="88" cy="94" r="26" fill="#fff" opacity="0.9"/>
+    <path d="M130 130 L166 84 L192 116 L212 94 L250 160 H28 L66 112 L96 144 Z" fill="#fff" opacity="0.74"/>
+  </g>
+</svg>
